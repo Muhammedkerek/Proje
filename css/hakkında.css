@@ -1,0 +1,27 @@
+h1 {
+    color: purple;
+    font-size: 50px;
+    text-align: center;
+    
+    }
+body{
+    background-image: url(https://media.istockphoto.com/illustrations/cloudy-sky-illustration-id1311857021?k=20&m=1311857021&s=612x612&w=0&h=6v5RrG6tVHnUjkUlHbB_lsZF-G952GLB9hkZ0PxS_D4=);
+    background-size: cover;
+    
+    font-family: arial; 
+    
+    font-weight: bolder;
+    }
+    .imagec { 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3px;
+        background-color: silver;
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+        }
+        p.para1{
+
+        }
