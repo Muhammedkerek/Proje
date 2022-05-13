@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsterrat&display=swap');
+body{
+    background-image: linear-gradient(#636162, #b1afaf);
+    height: 122vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+*{
+    margin: 0px; padding: 0px; font-family: 'Monsterat', sans-serif;
+}
+.main{
+    background-color: white;
+    height: auto;
+    width: 650px;
+    position: absolute;
+    transform: translate(-5%,-5% );
+    left: 50%;
+    top: 50;
+    margin-left: -20%;
+}
+.left{
+    background-color:darkslateblue;
+    width: 320px;
+    height: 100%;
+    float: left;
+}
+.right{
+    float: left;
+    width: 450px;
+}
+.profile img{
+    height:180px;
+    width: 180px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    border: 10px solid darkslateblue;
+    box-shadow: 6px 7px 9px 5px;
+}
+
+.box-1{
+    position: relative;
+}
+.heading{
+background-color: yellow;
+padding: 10px;
+color: darkslateblue;
+text-align: left;
+padding-left: 20px;
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5a5959;
+    left: 191px;
+    top: 26px;
+    transform: rotate(56deg);
+    z-index: -1;
+
+}
+.p1{
+    padding:9px 10px;
+    font-size: 11px;
+}
+.icons1{
+    font-size: 16px!important;
+    padding-right: 10px!important;
+    vertical-align: sub;
+}
+.skill-container{
+    width: 90%;
+    margin: 0px;
+    background-color:blue;
+}
+.skill{
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+}
+.html{
+    width: 90%;
+    background-color: white;
+}
+.css{
+    width: 80%;
+    background-color: white;
+}
+.Python{
+    width: 85%;
+    background-color: white;
+}
+.C{
+    width: 80%;
+    background-color: white;
+}
+.web{
+    width: 85%;
+    background-color: white;
+}
+.lng{
+    width: 70%;
+    background-color: white;
+}
+.icons2{
+    padding: 18px 10px;
+
+}
+.name-div{
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 86px 0px 60px 55px;
+}
+.name-div{
+    padding: 86px 0px 60px 55px;
+    text-align: center;
+}
+.name-div h1{
+    margin-bottom:10px ;
+    text-align: top;
+    margin-top: -200%;
+    margin-left: 70%;
+    
+}
+.p4{
+    margin-left: 70%;
+}
+.box2{
+    padding: 0px 50px;
+    margin-top: 30px;
+    margin-top: -20%;
+    
+}
