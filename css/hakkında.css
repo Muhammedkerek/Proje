@@ -22,6 +22,48 @@ body{
         border-width: 2px;
         border-style: solid;
         }
-        p.para1{
-
+        a:hover{
+            color: #F15A51;
+            cursor:cell;
+            
+            }        
+            
+        
+        h2{
+        text-decoration: underline;
+        text-align: center;
+        color: red;
         }
+        p.para1 {
+            color: blue;
+            font-size: 25px;
+            
+            }
+            p.para2{
+                color: purple;
+                font-size: 25px;
+                }
+                h3{
+                    color: green;
+                }
+.death{
+
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3px;
+        background-color: silver;
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+
+}                
+.note{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    line-height: 0.8rem;
+    border-color:purple;
+    border-width: 1px;
+    
+}
