@@ -1,0 +1,161 @@
+body{
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1589487391730-58f20eb2c308?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max");
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:beige;
+}
+.img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    background-color: silver;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.imeg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    background-color: silver;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    background-color: silver;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.foto2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    background-color: silver;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+h4.size{
+    font-size: x-large;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+}
+.link{
+    color: white;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+a:hover{
+    color: red;
+    cursor: pointer;
+
+}
+.p1{
+    color:white;
+    font-size: 15px;
+    line-height: 1.5em;
+    background-color: black ;
+    padding: 20px;
+    border-color:green ;
+    border-width: 2px;
+    border-style:ridge;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left:20px;
+}
+.p2{
+    color: red;
+    font-size: 17px;
+    line-height: 1.5rem;
+    background-color: aqua;
+    padding: 15px;
+    border-color: blue;
+    border-width: 1px;
+    border-style:dashed;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.p3{
+    color: blue;
+    background-color: white;
+    font-size: 15px;
+    line-height: 1.4rem;
+    padding: 12px;
+    border-color:red;
+    border-width: 1px;
+    border-style: dashed;
+    margin:20px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+@media (max-width:1024px)
+{
+    .p3 {
+    color: blue;
+    background-color: white;
+    font-size: 7.5px;
+    line-height: 0.9rem;
+    padding: 6px;
+    border-color:red;
+    border-width: 0.5px;
+    border-style: dashed;
+    margin:10px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.p2{
+    color: red;
+    font-size: 12px;
+    line-height: 1.1rem;
+    background-color: aqua;
+    padding: 7.5px;
+    border-color: blue;
+    border-width: 1px;
+    border-style:dashed;
+    margin: 10px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+
+.p1{
+    color:white;
+    font-size: 7.5px;
+    line-height: 1.1em;
+    background-color: black ;
+    padding: 10px;
+    border-color:green ;
+    border-width: 2px;
+    border-style:ridge;
+    margin: 10px;
+    margin-top: 25px;
+    margin-left:10px;
+}
+
+
+
+
+
+
+}

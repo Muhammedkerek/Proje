@@ -134,3 +134,47 @@ padding-left: 20px;
     margin-top: -20%;
     
 }
+@media (max-width:1024px){
+    .p1{
+        padding:4px 7px;
+       font-size: 6px;
+    }
+    .main{
+        background-color: white;
+        height: auto;
+        width: 300px;
+        position: absolute;
+        transform: translate(-2.5%,-2.5% );
+        left: 25%;
+        top: 25;
+        margin-left: -10%;
+    }
+
+    .left{
+        background-color:darkslateblue;
+        width: 170px;
+        height: 60%;
+        float: left;
+    }
+
+
+.right{
+    float: left;
+    width: 250px;
+
+}
+
+.heading{
+    background-color: yellow;
+    padding: 5px;
+    color: darkslateblue;
+    text-align: left;
+    padding-left: 10px;
+    }
+
+
+
+
+
+
+}
